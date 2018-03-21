@@ -4,5 +4,6 @@ def reverse_each_word(str)
   arr.each do |word|
     result += word.reverse + " "
   end
+  
   return result[0..-2]
 end
