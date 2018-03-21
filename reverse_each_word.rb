@@ -14,5 +14,5 @@ def reverse_each_word(str)
     word.reverse 
   end
   arr = arr.join(" ")
-  return arr[0..-2]
+  return arr
 end
